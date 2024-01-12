@@ -2,11 +2,12 @@ function isSameType(value1, value2) {
  if(value1 === NaN && value === NaN){
         return true;
     }
-    if(typeof value1 === typeof value2){
-        return true;
-        
-    }else{
+    if(typeof value1 !== typeof value2){
         return false;
+        
+    }
+	if (typeof value1 === typeof value2){
+        return true;
     }
 }
 
