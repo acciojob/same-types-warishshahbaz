@@ -5,10 +5,8 @@ function isSameType(value1, value2) {
     if(typeof value1 !== typeof value2){
         return false;
         
-    }else{
-		return true;
-	}
-	
+    }
+	return true;
 }
 
 // do not change the code below.
